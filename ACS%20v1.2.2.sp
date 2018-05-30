@@ -61,7 +61,7 @@
 #define PLUGIN_VERSION	"v1.2.2"
 
 //Define the number of campaigns and maps in rotation
-#define NUMBER_OF_CAMPAIGNS			12		/* CHANGE TO MATCH THE TOTAL NUMBER OF CAMPAIGNS */
+#define NUMBER_OF_CAMPAIGNS			13		/* CHANGE TO MATCH THE TOTAL NUMBER OF CAMPAIGNS */
 #define NUMBER_OF_SCAVENGE_MAPS		13		/* CHANGE TO MATCH THE TOTAL NUMBER OF SCAVENGE MAPS */
 
 //Define the wait time after round before changing to the next map in each game mode
@@ -167,6 +167,7 @@ SetupMapStrings()
 	Format(g_strCampaignFirstMap[9], 32, "c10m1_caves");
 	Format(g_strCampaignFirstMap[10],32,"c12m1_hilltop");
 	Format(g_strCampaignFirstMap[11],32,"c11m1_greenhouse");
+	Format(g_strCampaignFirstMap[12],32,"c9m1_alleys");
 	
 	//Last Maps of the Campaign
 	Format(g_strCampaignLastMap[0], 32, "c8m5_rooftop");
@@ -181,6 +182,7 @@ SetupMapStrings()
 	Format(g_strCampaignLastMap[9], 32, "c10m5_houseboat");
 	Format(g_strCampaignLastMap[10],32, "c12m5_cornfield");
 	Format(g_strCampaignLastMap[11],32, "c11m5_runway");
+	Format(g_strCampaignLastMap[12],32, "c9m2_lots");
 	
 	//Campaign Names
 	Format(g_strCampaignName[0], 32, "No Mercy");
@@ -195,6 +197,7 @@ SetupMapStrings()
 	Format(g_strCampaignName[9], 32, "Death Toll");
 	Format(g_strCampaignName[10],32, "Blood Harvest");
 	Format(g_strCampaignName[11],32, "Dead Air");
+	Format(g_strCampaignName[12],32, "Crash Course");
 	
 	
 	//The following string variables are only for Scavenge
