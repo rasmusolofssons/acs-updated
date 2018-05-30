@@ -61,7 +61,7 @@
 #define PLUGIN_VERSION	"v1.2.2"
 
 //Define the number of campaigns and maps in rotation
-#define NUMBER_OF_CAMPAIGNS			9		/* CHANGE TO MATCH THE TOTAL NUMBER OF CAMPAIGNS */
+#define NUMBER_OF_CAMPAIGNS			10		/* CHANGE TO MATCH THE TOTAL NUMBER OF CAMPAIGNS */
 #define NUMBER_OF_SCAVENGE_MAPS		13		/* CHANGE TO MATCH THE TOTAL NUMBER OF SCAVENGE MAPS */
 
 //Define the wait time after round before changing to the next map in each game mode
@@ -164,6 +164,7 @@ SetupMapStrings()
 	Format(g_strCampaignFirstMap[6], 32, "c4m1_milltown_a");
 	Format(g_strCampaignFirstMap[7], 32, "c5m1_waterfront");
 	Format(g_strCampaignFirstMap[8], 32, "c13m1_alpinecreek");
+	Format(g_strCampaignFirstMap[9], 32, "c10m1_caves");
 	
 	//Last Maps of the Campaign
 	Format(g_strCampaignLastMap[0], 32, "c8m5_rooftop");
@@ -175,6 +176,7 @@ SetupMapStrings()
 	Format(g_strCampaignLastMap[6], 32, "c4m5_milltown_escape");
 	Format(g_strCampaignLastMap[7], 32, "c5m5_bridge");
 	Format(g_strCampaignLastMap[8], 32, "c13m4_cutthroatcreek");
+	Format(g_strCampaignLastMap[9], 32, "c10m5_houseboat");
 	
 	//Campaign Names
 	Format(g_strCampaignName[0], 32, "No Mercy");
@@ -186,6 +188,7 @@ SetupMapStrings()
 	Format(g_strCampaignName[6], 32, "Hard Rain");
 	Format(g_strCampaignName[7], 32, "The Parish");
 	Format(g_strCampaignName[8], 32, "Cold Stream");
+	Format(g_strCampaignName[9], 32, "Death Toll");
 	
 	
 	//The following string variables are only for Scavenge
