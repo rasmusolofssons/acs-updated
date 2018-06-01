@@ -680,6 +680,7 @@ CheckMapForChange()
 	
 	for(new iMapIndex = 0; iMapIndex < NUMBER_OF_CAMPAIGNS; iMapIndex++)
 	{
+		//Check to see if current map is last map
 		if(StrEqual(strCurrentMap, g_strCampaignLastMap[iMapIndex]) == true)
 		{
 			//Check to see if someone voted for a campaign, if so, then change to the winning campaign
