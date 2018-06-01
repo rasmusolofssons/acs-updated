@@ -26,6 +26,8 @@
 		Community 1-5
 
 	Change Log
+
+		v1.2.3 (May 30, 2018)	- Added the rest of the campaigns for all modes except for Scavenge
 		
 		v1.2.2 (May 21, 2011)	- Added message for new vote winner when a player disconnects
 								- Fixed the sound to play to all the players in the game
