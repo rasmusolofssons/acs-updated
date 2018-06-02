@@ -167,7 +167,7 @@ SetupMapStrings()
 	Format(g_strCampaignFirstMap[7], 32, "c5m1_waterfront");
 	Format(g_strCampaignFirstMap[8], 32, "c13m1_alpinecreek");
 	Format(g_strCampaignFirstMap[9], 32, "c10m1_caves");
-	Format(g_strCampaignFirstMap[10],32,"c12m1_hilltop");
+	Format(g_strCampaignFirstMap[10],32,"C12m1_hilltop");
 	Format(g_strCampaignFirstMap[11],32,"c11m1_greenhouse");
 	Format(g_strCampaignFirstMap[12],32,"c9m1_alleys");
 	
@@ -182,7 +182,7 @@ SetupMapStrings()
 	Format(g_strCampaignLastMap[7], 32, "c5m5_bridge");
 	Format(g_strCampaignLastMap[8], 32, "c13m4_cutthroatcreek");
 	Format(g_strCampaignLastMap[9], 32, "c10m5_houseboat");
-	Format(g_strCampaignLastMap[10],32, "c12m5_cornfield");
+	Format(g_strCampaignLastMap[10],32, "C12m5_cornfield");
 	Format(g_strCampaignLastMap[11],32, "c11m5_runway");
 	Format(g_strCampaignLastMap[12],32, "c9m2_lots");
 	
